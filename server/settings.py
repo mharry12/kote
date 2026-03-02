@@ -14,7 +14,8 @@ SECRET_KEY = 'django-insecure-v00e!yqqp6x+8tx^g^7wn35c7fe#sou&_ow-+6hyo8bds!b9du
 
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")
+ALLOWED_HOSTS=['kote-p83w.onrender.com']
+
 
 # ─── Security (Production Safe) ──────────────────────
 if not DEBUG:
